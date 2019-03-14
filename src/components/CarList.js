@@ -10,6 +10,8 @@ import './CarList.css';
 
 import NotFound from './not-found.gif';
 
+import config from '../config.js';
+
 const PAGE_LIMIT = 20;
 
 const SORT_OPTIONS = [
@@ -81,7 +83,7 @@ class CarList extends Component {
     // 2. Initialize the JavaScript client library.
     window.gapi.client
       .init({
-        apiKey: 'AIzaSyC1bxZaTOj6Nu8otaC-teW1Tb5anLaAG2E',
+        apiKey: config.apiKey,
         // Your API key will be automatically added to the Discovery Document URLs.
         discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest'],
       })
