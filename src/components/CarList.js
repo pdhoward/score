@@ -85,7 +85,8 @@ class CarList extends Component {
       .init({
         apiKey: config.apiKey,
         // Your API key will be automatically added to the Discovery Document URLs.
-        discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest'],
+        //discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest'],
+        discoveryDocs: config.discoveryDocs,
       })
       .then(() => {
         // 3. Initialize and make the API request.
