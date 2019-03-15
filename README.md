@@ -73,6 +73,10 @@ export default {
  json 2 sheet
  https://github.com/mindvalley/json2gsheet
 
+ examples running sheet and nodejs - including setting up examples
+ includes udpates and bulk appends
+ https://github.com/jpillora/node-google-sheets
+
 
 
 
