@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CarList              from './components/CarList';
-import Footer               from ',/components/Footer'
+import Footer               from './components/Footer'
 import logo                 from './assets/sm.png';
 import react                from './assets/logo.svg';
 import './App.css';
