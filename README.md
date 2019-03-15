@@ -52,6 +52,9 @@ export default {
  use of react and tabletop
  https://github.com/ryanMcNierney/React-GoogleSheets
 
+ deployed site on netlify
+ https://5c8beb0c9a6f8b18fddf524a--reverent-shaw-c772ad.netlify.com/
+
 
 
 
