@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './doug-crop.png';
-import react from './logo.svg';
+import logo from './components/doug-crop.png';
+import react from './components/logo.svg';
 import './App.css';
-import CarList from './CarList';
+import CarList from './components/CarList';
 
 class App extends Component {
   render() {
