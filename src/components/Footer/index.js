@@ -7,36 +7,18 @@ function Footer() {
     <footer>
       <hr />
       <p>
-        Made with{' '}
-        <span role="img" aria-labelledby="Love">
-            ❤️
-        </span>{' '}
-        &amp; <img src={logo} className="App-logo-small" alt="React Logo" /> by{' '}
-        <a href="https://twitter.com/416serg">Strategic Machines, Inc</a>
+        Forged on{' '}
+          <span role="img">
+          <a href="https://github.com/pdhoward/score"><i className="fab fa-github" /></a>            
+          </span>
+      </p> 
+      <p>
+        &copy; 2018{' '}
+        <a href="https://twitter.com/urban_coder">Strategic Machines, Inc</a>{' '}
+        <img src={logo} className="App-logo-small" alt="SM Logo" />
       </p>
     </footer>
   );
 }
 
 export default Footer;
-/*
-
-<footer className="App-footer">
-          <p>
-            Made with{' '}
-            <span role="img" aria-labelledby="Love">
-              ❤️
-            </span>{' '}
-            &amp; <img src={react} className="App-logo-small" alt="React Logo" /> by{' '}
-            <a href="https://twitter.com/416serg">416serg</a>
-          </p>
-        </footer>
-
-//
-<footer>
-      <hr />
-      <p className="pull-right">
-        <i className="fab fa-github" /> Strategic Machines, Inc
-      </p>
-    </footer>
-*/
