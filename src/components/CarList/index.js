@@ -15,7 +15,7 @@ import config from '../../config.js';
 const PAGE_LIMIT = 20;
 
 const SORT_OPTIONS = [
-  { value: 'score', label: '✅ DougScore' },
+  { value: 'score', label: '✅ Score' },
   { value: 'wTotal', label: '🏖️ Weekend Score' },
   { value: 'dTotal', label: '🏢 Daily Score' },
   { value: 'wStyling', label: '💅🏼 Styling' },
