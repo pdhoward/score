@@ -53,7 +53,10 @@ export default {
  https://github.com/ryanMcNierney/React-GoogleSheets
 
  deployed site on netlify
- https://5c8beb0c9a6f8b18fddf524a--reverent-shaw-c772ad.netlify.com/
+ https://5c8bf8b510d97fd6758916ce--reverent-shaw-c772ad.netlify.com/
+
+ every netlify deploy requires an update of the api application restrictions http referers
+ https://console.developers.google.com/apis/credentials/key/670e24c7-643f-4e68-8438-b4bc983d1ad7?project=score-234523
 
 
 
