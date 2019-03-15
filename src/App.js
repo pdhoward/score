@@ -10,25 +10,17 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to the Score</h1>
+          <h1 className="App-title">The Score</h1>
           <p>
-            I love watching{' '}
+            {' '}
             <a
-              href="https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg"
+              href="https://docs.google.com/spreadsheets/d/1tHmdWfer9FYzB-IOx6JK5Bdwd7tVtLzhAYOOV69ypMA/edit#gid=0"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Doug Demuro's Youtube channel
+              DATASET
             </a>{' '}
-            and as you probably know, Doug the type of guy to rank cars and keep{' '}
-            <a
-              href="https://docs.google.com/spreadsheets/d/1KTArYwDWrn52fnc7B12KvjRb6nmcEaU6gXYehWfsZSo/edit#gid=0"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              a spreadsheet
-            </a>{' '}
-            with the scores. I decided to take it a bit further and have a way to filter, search and sort the cars.
+            ANALYTICS AND VISUALIZATIONS
           </p>
         </header>
         <CarList />
