@@ -39,4 +39,12 @@ export default {
  Note you will need to update the credentials for your api key, referencing the new url of the deployed app rather than localhost:3000 for CRA testing on your local machine
  ```
 
+ React Router is used in this application
+
+ In build a folder create a file called _redirects and insert this record
+ 
+ /*    /index.html  200
+
+
+
 
