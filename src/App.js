@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CarList              from './components/CarList';
 import Footer               from './components/Footer'
 import logo                 from './assets/sm.png';
+import config from "./config";
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
           <p>
             {' '}
             <a
-              href="https://docs.google.com/spreadsheets/d/1tHmdWfer9FYzB-IOx6JK5Bdwd7tVtLzhAYOOV69ypMA/edit#gid=0"
+              href={config.url}
               target="_blank"
               rel="noopener noreferrer"
             >
