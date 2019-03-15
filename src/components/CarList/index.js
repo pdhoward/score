@@ -8,7 +8,7 @@ import CarFilters               from '../CarFilters';
 import BestOfEach               from '../BestOfEach';
 import './style.css';
 
-import NotFound from '../../../public/assets/not-found.gif';
+import NotFound from '../../assets/not-found.gif';
 
 import config from '../../config.js';
 
