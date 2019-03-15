@@ -17,12 +17,26 @@ git clone https://github.com/pdhoward/score
 npm i
 npm run start
 ```
+- set up the src/config.js file with the necessary credentials and links for google sheets
+- an api should be created on your google account, with a link to the sheet products
+- you can choose to use the published spreadsheet referenced below, or copy this spreadsheet and set up your own id and url. 
+
+```
+export default {
+  apiKey: "your google api key",  
+  scope: "https://www.googleapis.com/auth/spreadsheets",
+  discoveryDocs: ["https://sheets.googleapis.com/$discovery/rest?version=v4"],  
+  spreadsheetId: "1tHmdWfer9FYzB-IOx6JK5Bdwd7tVtLzhAYOOV69ypMA",
+  url: "https://docs.google.com/spreadsheets/d/1tHmdWfer9FYzB-IOx6JK5Bdwd7tVtLzhAYOOV69ypMA/edit#gid=0"
+};
+```
 
 ### Deploy
 
  ```
  yarn build
  push to your favorite cloud platform
+ Note you will need to update the credentials for your api key, referencing the new url of the deployed app rather than localhost:3000 for CRA testing on your local machine
  ```
 
 
