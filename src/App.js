@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CarList              from './components/CarList';
+import Footer               from ',/components/Footer'
 import logo                 from './assets/sm.png';
 import react                from './assets/logo.svg';
 import './App.css';
@@ -34,6 +35,7 @@ class App extends Component {
             <a href="https://twitter.com/416serg">416serg</a>
           </p>
         </footer>
+        <Footer />
       </div>
     );
   }
