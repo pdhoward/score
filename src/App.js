@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CarList              from './components/CarList';
-import logo                 from './components/doug-crop.png';
-import react                from './components/logo.svg';
+import logo                 from '../public/assets/doug-crop.png';
+import react                from '../public/assets/logo.svg';
 import './App.css';
 
 class App extends Component {
