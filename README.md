@@ -55,7 +55,8 @@ export default {
  deployed site on netlify
  https://5c8bf8b510d97fd6758916ce--reverent-shaw-c772ad.netlify.com/
 
- 
+ simple tutorial using google sheets and react
+ https://appendto.com/2018/08/the-simple-stack-a-primer-on-using-react-google-sheets-api/
 
 
 
