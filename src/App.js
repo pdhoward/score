@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import CarList              from './components/CarList';
 import Footer               from './components/Footer'
 import logo                 from './assets/sm.png';
-import react                from './assets/logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -25,16 +24,7 @@ class App extends Component {
           </p>
         </header>
         <CarList />
-        <footer className="App-footer">
-          <p>
-            Made with{' '}
-            <span role="img" aria-labelledby="Love">
-              ❤️
-            </span>{' '}
-            &amp; <img src={react} className="App-logo-small" alt="React Logo" /> by{' '}
-            <a href="https://twitter.com/416serg">416serg</a>
-          </p>
-        </footer>
+        
         <Footer />
       </div>
     );
