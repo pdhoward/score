@@ -15,6 +15,14 @@ A reactjs website for managing score board on cars. The scores are aggregated in
 ```
 git clone https://github.com/pdhoward/score
 npm i
-```
 npm run start
+```
+
+### Deploy
+
+ ```
+ yarn build
+ push to your favorite cloud platform
+ ```
+
 
