@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import ReactPaginate from 'react-paginate';
-import Select from 'react-select';
-import { PacmanLoader } from 'react-spinners';
-import { load } from '../helpers/spreadsheet';
-import Car from './Car';
-import CarFilters from './CarFilters';
-import BestOfEach from './BestOfEach';
-import './CarList.css';
+import React, { Component }     from 'react';
+import ReactPaginate            from 'react-paginate';
+import Select                   from 'react-select';
+import { PacmanLoader }         from 'react-spinners';
+import { load }                 from '../../helpers/spreadsheet';
+import Car                      from '../Car';
+import CarFilters               from '../CarFilters';
+import BestOfEach               from '../BestOfEach';
+import './style.css';
 
-import NotFound from './not-found.gif';
+import NotFound from '../../../public/assets/not-found.gif';
 
-import config from '../config.js';
+import config from '../../config.js';
 
 const PAGE_LIMIT = 20;
 

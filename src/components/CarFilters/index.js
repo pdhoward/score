@@ -2,7 +2,7 @@ import React, { Component }   from 'react';
 import PropTypes              from 'prop-types';
 import InputRange             from 'react-input-range';
 import './style.css';
-import '../../node_modules/react-input-range/lib/css/index.css';
+import '../../../node_modules/react-input-range/lib/css/index.css';
 
 class CarFilters extends Component {
   render() {
