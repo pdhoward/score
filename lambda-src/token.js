@@ -1,5 +1,5 @@
 
-
+// for a payment function
 // https://macarthur.me/posts/building-a-lambda-function-with-netlify
 require('dotenv').config()
 const axios = require("axios")

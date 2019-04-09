@@ -19,6 +19,7 @@
     "react-string-replace": "^0.4.1"
   },
   "scripts": {
+    "lserve": "netlify-lambda serve lambda-src",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
