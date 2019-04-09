@@ -13,7 +13,7 @@ const headers = {
 
 exports.handler = (event, context, callback) => {
 
-    console.log(process.env)
+    //console.log(process.env)
 
     callback(null, {
         statusCode,
