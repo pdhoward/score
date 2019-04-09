@@ -1,7 +1,27 @@
+
+
+// https://macarthur.me/posts/building-a-lambda-function-with-netlify
+require('dotenv').config()
 const axios = require("axios")
 const qs = require("qs")
 
+const statusCode = 200;
+const headers = {
+  "Access-Control-Allow-Origin" : "*",
+  "Access-Control-Allow-Headers": "Content-Type"
+};
+
 export function handler(event, context, callback) {
+
+    console.log(process.env)
+
+    callback(null, {
+        statusCode,
+        headers,
+        body: 'Let there be light!'
+      });
+
+    /*
   // apply our function to the queryStringParameters and assign it to a variable
   const API_PARAMS = qs.stringify(event.queryStringParameters)
   // Get env var values defined in our Netlify site UI
@@ -35,5 +55,6 @@ export function handler(event, context, callback) {
   if(event.httpMethod == 'GET'){
     get()
   };
+  */
 };
 
