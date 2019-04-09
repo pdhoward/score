@@ -1,26 +1,29 @@
 
 // for a payment function
 // https://macarthur.me/posts/building-a-lambda-function-with-netlify
+// https://www.raymondcamden.com/2019/01/08/adding-serverless-functions-to-your-netlify-static-site
 require('dotenv').config()
 const axios = require("axios")
 const qs = require("qs")
 
-const statusCode = 200;
-const headers = {
-  "Access-Control-Allow-Origin" : "*",
-  "Access-Control-Allow-Headers": "Content-Type"
-};
 
 exports.handler = (event, context, callback) => {
-    return 'done'
-    //console.log(process.env)
-    /*
+
+    
+    const statusCode = 200;
+    const headers = {
+    "Access-Control-Allow-Origin" : "*",
+    "Access-Control-Allow-Headers": "Content-Type"
+    };
+    
+    console.log(process.env)
+    
     callback(null, {
         statusCode,
         headers,
         body: 'Let there be light!'
       });
-      */
+      
 
     /*
   // apply our function to the queryStringParameters and assign it to a variable
