@@ -2,6 +2,7 @@
 base = ""
 publish = "build"
 command = "yarn run build"
+functions = "lamda"
 [[redirects]]
 from = "/*"
 to = "/index.html"
