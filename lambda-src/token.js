@@ -11,7 +11,7 @@ const headers = {
   "Access-Control-Allow-Headers": "Content-Type"
 };
 
-export function handler(event, context, callback) {
+exports.handler = (event, context, callback) => {
 
     console.log(process.env)
 

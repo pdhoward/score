@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "chart.js": "^2.7.2",
     "dotenv": "^7.0.0",
     "netlify-lambda": "^1.4.3",
@@ -20,6 +21,7 @@
   },
   "scripts": {
     "lserve": "netlify-lambda serve lambda-src",
+    "lbuild": "netlify-lambda build lambda-src",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
