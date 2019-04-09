@@ -12,14 +12,15 @@ const headers = {
 };
 
 exports.handler = (event, context, callback) => {
-
+    return 'done'
     //console.log(process.env)
-
+    /*
     callback(null, {
         statusCode,
         headers,
         body: 'Let there be light!'
       });
+      */
 
     /*
   // apply our function to the queryStringParameters and assign it to a variable
