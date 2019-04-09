@@ -1,0 +1,4 @@
+[build]
+base = "score/"
+publish = "score/build/"
+command = "yarn build"
